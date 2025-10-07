@@ -20,11 +20,11 @@ $$
 $$
 
 - $T_{n}(f)$ – Złożony wzór trapezów
-	- $T_{n}(f) = h \sum\limits_{k=0}^{n} '' f(x_{k})$
+	- $T_{n}(f) = h {\sum\limits_{k=0}^{n}}'' f(x_{k})$
 - $R_{n}^{T}(f)$ – błąd złożonego wzoru trapezów
 	- $R_{n}^{T}(f) = -\frac{h^{3}}{12}\boxed{\sum\limits_{k=0}^{n-1}f''(\xi)} \overset{\boxed{!}}{=}-n\frac{h^{3}}{12}f''(\beta) = O(\frac{1}{n^{2}})$ jeśli $f\in C^{2}[a,b]$ i $\beta\in(a,b)$ 
 
-> Dziwna suma: $\sum\limits_{i=0}^{n}'' x_{i} = \frac{x_{0}}{2} + x_{1} + \dots + x_{n-1} + \frac{x_{n}}{2}$
+> Dziwna suma: ${\sum\limits_{i=0}^{n}}'' x_{i} = \frac{x_{0}}{2} + x_{1} + \dots + x_{n-1} + \frac{x_{n}}{2}$
 
 #### Twierdzenie
 $$
@@ -52,7 +52,7 @@ $$
 $$
 
 - $S_{n}(f)$ – Złożony wzór Simpsona
-	- $S_{n}(f) = \frac{h}{3}\left(2\sum\limits_{k=0}^{m}''f\left(x_{2k}\right) + 4\sum\limits_{k=1}^{m}f(2_{2k-1})\right)$
+	- $S_{n}(f) = \frac{h}{3}\left(2{\sum\limits_{k=0}^{m}}''f\left(x_{2k}\right) + 4\sum\limits_{k=1}^{m}f(2_{2k-1})\right)$
 - $R_{n}^{S}(f)$ Błąd złożenia wzoru Simpsona
 	- $R_{n}^{S}(f) \overset{\boxed{!}}{=} (a-b)\frac{h^{4}}{180}f^{(4)}(\gamma) = O(\frac{1}{n^{4}})$ jeśli $f\in C^{4}[a,b]$ i $\gamma\in[a,b]$
 

@@ -65,6 +65,7 @@ B_{k} = 2\cdot x B_{k+1} - B_{k+2} + c_{k}
 \end{cases}
 \end{align*}
 $$
+
 Wtedy $w(x) = \frac{B_{0} - B_{2}}{2}$.
 
 ## Postać Lagrange'a

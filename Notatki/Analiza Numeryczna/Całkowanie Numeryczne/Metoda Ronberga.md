@@ -4,7 +4,7 @@ Niech $n=2^{k}, k\in\mathbb{N}$ i niech:
 
 - $h_{k}=\frac{b-a}{2}$
 - $x_{i}^{(k)} = a + ih_{k}$
-- $T_{0,k}= T_{2^{k}}(f) = \sum\limits_{i=0}^{2^{k}} '' f(x_{i}^{(k)})$ – to jest wzór trapezów
+- $T_{0,k}= T_{2^{k}}(f) = {\sum\limits_{i=0}^{2^{k}}}'' f(x_{i}^{(k)})$ – to jest wzór trapezów
 $$
 \boxed{T_{m,k} =\frac{4^{m}T_{m-1,k+1} - 1T_{n-1,k}}{4^{m}-1}}\longleftarrow\text{metoda Ronberga}
 $$
