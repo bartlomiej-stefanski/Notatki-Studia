@@ -6,3 +6,6 @@ public
 
 # Utility script for my local sync
 copy.py
+
+# NPM stuff
+node_modules
