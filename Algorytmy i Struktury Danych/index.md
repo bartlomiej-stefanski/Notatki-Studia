@@ -18,7 +18,7 @@
 	- [x] [[MinMax]]
 	- [x] [[Sieci Przełączników]]
 	- [x] [[Closest Points]]
-- [x] [[Programowanie Dynamiczne]]
+- [x] [[Programowanie-Dynamiczne]]
 	- [x] [[Liczenie Dwumianu Newtona]]
 	- [ ] [[Najtańsza Trasa w Tablicy]] – triv
 	- [x] [[Najdłuższy Wspólny Podciąg]]
